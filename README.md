@@ -25,9 +25,9 @@ Example commit message:
 `git commit -a -m "feat: login form validation implemented."`
 
 
-### 2. Use English for Documentation
+### 2. Use English for Documentation, Issues and PRs
 
-English is the standard language for all documentation in Estecon. This includes:
+English is the standard language for all documentation, issues and PRs in Estecon. This includes:
 
 - Code comments
 - Readme files
@@ -36,7 +36,15 @@ English is the standard language for all documentation in Estecon. This includes
 
 Using English helps us reach a broader audience and makes it easier for contributors from around the world to participate.
 
-### 3. Use Semantic Tags
+### 3. Use camelCase for Naming Conventions
+
+In Estecon, we use camelCase for naming variables, functions, and objects in JavaScript and other applicable languages. This standard helps improve readability and maintainability.
+
+- Use `camelCase` for variables and function names, e.g., `getUserData`.
+- Use `PascalCase` for class and component names, e.g., `UserProfile`.
+- Avoid using underscores (`_`) in names unless necessary for specific conventions or external APIs.
+
+### 4. Use Semantic Tags
 
 Semantic HTML tags enhance the accessibility, SEO, and readability of the application. Make sure to use tags that describe the content accurately:
 
