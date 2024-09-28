@@ -2,10 +2,6 @@
 
 Welcome to the Estecon project! Estecon is a professional portfolio project focused on showcasing the services of an accounting firm based in Pedro II - PI. Below, you'll find the guidelines and standards that we follow during the development process.
 
-## Project Overview
-
-Estecon is a task management application designed to help users organize and prioritize their tasks efficiently. The project is built using modern technologies and adheres to best practices in coding and documentation.
-
 ## Standards and Best Practices
 
 To maintain consistency and ensure the quality of our codebase, we follow the guidelines listed below:
