@@ -15,35 +15,34 @@ export const WelcomeDesktop = () =>{
 
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
 }, [images.length]);
-
     
 
     return(
 
-
         <>
-            <section>
+            <section className='bg-whiteColor flex mt-28 p-4'>
 
-                <div>
-                    <h1>Bem-Vindo ao Estecon</h1>
-                    <h3>Empresa de Contabilidade</h3>
+                {/* Title */}
+                <div className='m-auto text-bluePrimary font-bold leading-loose'>
+                    <h1 className='text-6xl'>Bem-Vindo ao Estecon</h1>
+                    <h3 className='text-3xl'>Empresa de Contabilidade</h3>
                     <p>Pioneiro de Contabilidade em Pedro II - PI</p>
-                    <button>Entre em Contato</button>
+                    <button className='btn_contato'>Entre em Contato</button>
                 </div>
 
-                <div className="overflow-hidden relative w-full max-w-3xl mx-auto rounded-lg shadow-lg">
-
+                {/* Photos */}
+                <div className="overflow-hidden relative w-full max-w-3xl mx-auto shadow-lg m-5">
                     <div className="flex transition-transform duration-1000 ease-in-out"
-        style={{ transform: `translateX(-${imgCurretIndex * 100}%)` }}>
+                      style={{ transform: `translateX(-${imgCurretIndex * 100}%)` }}>
 
                         {images.map((image, index) => (
-                        <div className="min-w-full"  key={index}>
-                            <img src={image} alt={`Imagem ${index + 1}`} className="w-full h-auto object-cover" />
+                        <div className="min-w-full flex justify-center"  key={index}>
+                            <img src={image} alt={`Imagem ${index + 1}`} className="w-3/4 h-auto object-cover rounded-3xl" />
                         </div>
-        ))}
+                    ))}
                     </div>
-                    
                 </div>
+
             </section>
         </>
     )
