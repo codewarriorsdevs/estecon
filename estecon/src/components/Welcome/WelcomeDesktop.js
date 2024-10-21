@@ -23,11 +23,11 @@ export const WelcomeDesktop = () =>{
             <section className='bg-whiteColor flex mt-28 p-4'>
 
                 {/* Title */}
-                <div className='m-auto text-bluePrimary font-bold leading-loose'>
-                    <h1 className='text-6xl'>Bem-Vindo ao Estecon</h1>
-                    <h3 className='text-3xl'>Empresa de Contabilidade</h3>
-                    <p>Pioneiro de Contabilidade em Pedro II - PI</p>
-                    <button className='btn_contato'>Entre em Contato</button>
+                <div className='m-auto text-bluePrimary font-bold'>
+                    <h1 className='text-6xl '>Bem-Vindo ao Estecon</h1>
+                    <h3 className='text-3xl my-2'>Empresa de Contabilidade</h3>
+                    <p className='text-xl'>Pioneiro de Contabilidade em Pedro II - PI</p>
+                    <button className='bg-bluePrimary text-whiteColor px-5 py-3 rounded-xl my-2 text-2xl hover:bg-blue-950'>Entre em Contato</button>
                 </div>
 
                 {/* Photos */}
