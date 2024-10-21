@@ -1,5 +1,5 @@
 import React from 'react'
-import EsteconLogo from '../../img/logo2.svg'
+import EsteconLogo from '../../assets/img/logo2.svg'
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
