@@ -20,29 +20,40 @@ export const WelcomeDesktop = () =>{
     return(
 
         <>
-            <section className='bg-whiteColor flex mt-28 p-4'>
+            <section className='bg-whiteColor mt-28 p-4 flex max-md:flex-wrap max-md:m-5  '>
 
                 {/* Title */}
                 <div className='m-auto text-bluePrimary font-bold'>
-                    <h1 className='text-6xl '>Bem-Vindo ao Estecon</h1>
-                    <h3 className='text-3xl my-2'>Empresa de Contabilidade</h3>
-                    <p className='text-xl'>Pioneiro de Contabilidade em Pedro II - PI</p>
+                    <h1 className='text-6xl max-md:text-4xl'>Bem-Vindo ao Estecon</h1>
+                    <h3 className='text-3xl my-2 max-md:text-xl'>Empresa de Contabilidade</h3>
+                    <p className='text-xl max-xl:text-base'>Pioneiro de Contabilidade em Pedro II - PI</p>
                     <button className='bg-bluePrimary text-whiteColor px-5 py-3 rounded-xl my-2 text-2xl hover:bg-blue-950'>Entre em Contato</button>
                 </div>
 
                 {/* Photos */}
-                <div className="overflow-hidden relative w-full max-w-3xl mx-auto shadow-lg m-5">
+                <div className="overflow-hidden relative w-full max-w-4xl mx-auto shadow-lg m-5 py-8 md:max-w-2xl max-md:py-9">
                     <div className="flex transition-transform duration-1000 ease-in-out"
                       style={{ transform: `translateX(-${imgCurretIndex * 100}%)` }}>
 
                         {images.map((image, index) => (
                         <div className="min-w-full flex justify-center"  key={index}>
-                            <img src={image} alt={`Imagem ${index + 1}`} className="w-3/4 h-auto object-cover rounded-3xl" />
+                        <img src={image} alt={`Imagem ${index + 1}`} className="w-5/6 h-auto object-cover rounded-3xl max-md:w-4/5" />
                         </div>
                     ))}
                     </div>
-                </div>
 
+                    {/* three points */}
+                    <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-3">
+                    {images.map((_, index) => (
+                    <div
+                        key={index}
+                        className={`w-3 h-3 rounded-full ${imgCurretIndex === index ? 'bg-blue-950' : 'bg-gray-300'} transition-colors duration-500`}
+                    />
+                    ))}
+                    </div>
+                </div>
+                    
+                    
             </section>
         </>
     )
