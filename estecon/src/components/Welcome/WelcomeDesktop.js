@@ -47,7 +47,7 @@ export const WelcomeDesktop = () =>{
                     {images.map((_, index) => (
                     <div
                         key={index}
-                        className={`w-3 h-3 rounded-full ${imgCurretIndex === index ? 'bg-blue-950' : 'bg-gray-300'} transition-colors duration-500`}
+                        className={`w-4 h-3 rounded-full ${imgCurretIndex === index ? 'bg-blue-950' : 'bg-gray-300'} transition-colors duration-500`}
                     />
                     ))}
                     </div>
