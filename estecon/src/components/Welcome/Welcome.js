@@ -20,7 +20,7 @@ export const Welcome = () =>{
     return(
 
         <>
-            <section className='bg-whiteColor mt-28 p-4 flex max-md:flex-wrap max-md:m-5  '>
+            <section className='bg-whiteColor mt-16 p-4 flex max-md:flex-wrap max-md:m-5  '>
 
                 {/* Title */}
                 <div className='m-auto text-bluePrimary font-bold'>
