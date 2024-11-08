@@ -3,12 +3,12 @@ import about from "../../assets/img/about.png"
 export const About = () => {
     return(
         <>
-            <section className="m-auto">
+            <section className="">
 
-            <div>
-                <h1>Sobre nós</h1>
-                <hr />
-                <p>Um pouco sobre nós</p>
+            <div className="mx-32 my-7">
+                <h1 className="text-bluePrimary font-bold text-4xl py-1 text-center ">Sobre nós</h1>
+                <hr className="bg-bluePrimary p-1 w-96 mx-auto"/>
+                <p className="text-bluePrimary py-1 font-bold text-center">Um pouco sobre nós</p>
             </div>
 
             <div className="flex">
