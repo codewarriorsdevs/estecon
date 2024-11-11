@@ -1,5 +1,6 @@
 import { About } from "./components/About/About";
 import Navbar from "./components/Navbar/Navbar";
+import { Segments } from "./components/Segments/Segments";
 import { Welcome } from "./components/Welcome/Welcome";
 
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Welcome />
       <About />
+      {/* <Segments /> */}
 
     </>
   );
