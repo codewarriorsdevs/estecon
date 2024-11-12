@@ -4,7 +4,7 @@ export const About = () => {
     return(
         <>
             <section className=
-            "w-4/5 m-auto my-6"
+            "w-4/5 m-auto my-10"
             >
 
             <div>

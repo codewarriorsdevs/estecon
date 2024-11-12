@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Welcome />
       <About />
-      {/* <Segments /> */}
+      <Segments />
 
     </>
   );
