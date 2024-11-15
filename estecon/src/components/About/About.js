@@ -23,7 +23,7 @@ export const About = () => {
             "flex space-x-72 my-7 max-2xl:block max-2xl:space-x-0"
             >
                 <img src={about} alt="Foto de 1975 " className=
-                "w-2/5 max-2xl:w-2/5 max-2xl:m-auto"
+                "w-2/6 max-2xl:w-2/5 max-2xl:m-auto"
                 />
 
                 <div className=
