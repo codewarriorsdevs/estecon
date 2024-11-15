@@ -4,7 +4,7 @@ export const About = () => {
     return(
         <>
             <section className=
-            "w-4/5 m-auto my-6"
+            "w-4/5 m-auto my-10"
             >
 
             <div>
@@ -15,7 +15,7 @@ export const About = () => {
                 "bg-bluePrimary p-1 w-96 mx-auto max-md:w-52"
                 />
                 <p className=
-                "text-bluePrimary py-1 font-bold text-center"
+                "text-bluePrimary py-1 font-bold text-center text-3xl"
                 >Um pouco sobre nós</p>
             </div>
 
@@ -23,7 +23,7 @@ export const About = () => {
             "flex space-x-72 my-7 max-2xl:block max-2xl:space-x-0"
             >
                 <img src={about} alt="Foto de 1975 " className=
-                "w-2/5 max-2xl:w-2/5 max-2xl:m-auto"
+                "w-2/6 max-2xl:w-2/5 max-2xl:m-auto"
                 />
 
                 <div className=
