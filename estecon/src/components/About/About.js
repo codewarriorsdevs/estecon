@@ -15,7 +15,7 @@ export const About = () => {
                 "bg-bluePrimary p-1 w-96 mx-auto max-md:w-52"
                 />
                 <p className=
-                "text-bluePrimary py-1 font-bold text-center"
+                "text-bluePrimary py-1 font-bold text-center text-3xl"
                 >Um pouco sobre nós</p>
             </div>
 
