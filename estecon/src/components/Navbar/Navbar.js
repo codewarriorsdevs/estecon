@@ -3,7 +3,7 @@ import NavbarBrand from './NavbarBrand';
 import NavbarLinks from './NavbarLinks';
 import NavbarToggle from './NavbarToggle';
 
-const Navbar = () => {
+export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -41,5 +41,3 @@ const Navbar = () => {
         </nav>
     );
 };
-
-export default Navbar;
